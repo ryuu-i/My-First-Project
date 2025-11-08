@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sign-in And Log-In</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+      <!--Sign-In-->
+    <div class="box">
+      <h1>Sign-In</h1>
+      <form id="sign">
+        <label for="username">Username:</label><br>
+        <input 
+        type="text" 
+        name="username" 
+        id="username"><br>
+        
+        <label for="password">Password:</label><br>
+        <input 
+        type="password" 
+        name="password" 
+        id="password"><br>
+        
+        <label for="cpassword">Confirm Password:</label><br>
+        <input 
+        type="password" 
+        name="cpassword" 
+        id="cpassword">
+      </form>
+      
+      <button onclick="createAccount()">
+        Create Account</button>
+    </div>
+    
+        <!--Log-In box-->
+    <div class="box">
+      <h1>Log-In</h1>
+      
+      <form id="log">
+        <label for="username2">Username:</label><br>
+        <input 
+        type="text" 
+        name="username2" 
+        id="username2"><br>
+        
+        <label for="password">Password:</label><br>
+        <input 
+        type="password" 
+        name="password2" 
+        id="password"><br>
+      
+      </form>
+      
+      <button onclick="login()">
+        Log-In</button>
+      <a href="#">Forgot Password</a>
+    </div>
+    
+    <script src="main.js"></script>
+  </body>
+</html>
